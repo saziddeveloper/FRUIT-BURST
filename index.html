@@ -32,10 +32,10 @@
             <div class="navbar bg-[#F85559] rounded-full">
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
-                        <li><a class="hover:bg-[#F85559] hover:underline text-white font-medium text-lg">Home</a></li>
-                        <li><a class="hover:bg-[#F85559] hover:underline text-white font-medium text-lg">About Us</a></li>
-                        <li><a class="hover:bg-[#F85559] hover:underline text-white font-medium text-lg">Shop</a></li>
-                        <li><a class="hover:bg-[#F85559] hover:underline text-white font-medium text-lg">All Fruits</a></li>
+                        <li><a class="hover:bg-[#F85559] hover:underline text-[#fffffff5] font-medium text-lg">Home</a></li>
+                        <li><a class="hover:bg-[#F85559] hover:underline text-[#fffffff5] font-medium text-lg">About Us</a></li>
+                        <li><a class="hover:bg-[#F85559] hover:underline text-[#fffffff5] font-medium text-lg">Shop</a></li>
+                        <li><a class="hover:bg-[#F85559] hover:underline text-[#fffffff5] font-medium text-lg">All Fruits</a></li>
                     </ul>
                 </div>
                 <div class="navbar-start">
@@ -46,10 +46,10 @@
                             </svg>
                         </div>
                         <ul tabindex="0" class="menu menu-sm dropdown-content bg-[#F85559] rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a class="text-white font-medium text-lg">Home</a></li>
-                            <li><a class="text-white font-medium text-lg">About Us</a></li>
-                            <li><a class="text-white font-medium text-lg">Shop</a></li>
-                            <li><a class="text-white font-medium text-lg">All Fruits</a></li>
+                            <li><a class="text-[#fffffff5] font-medium text-lg">Home</a></li>
+                            <li><a class="text-[#fffffff5] font-medium text-lg">About Us</a></li>
+                            <li><a class="text-[#fffffff5] font-medium text-lg">Shop</a></li>
+                            <li><a class="text-[#fffffff5] font-medium text-lg">All Fruits</a></li>
                             <div class="navbar-end mt-4 ml-24 flex lg:hidden">
                                 <div class="join rounded-full bg-white">
                                     <input type="text" placeholder="Search here" class="input input-bordered join-item border-0 w-36" />
@@ -77,7 +77,7 @@
                 <div id="slide1" class="carousel-item relative w-full">
                     <div class="absolute mx-auto my-auto px-8 py-10 lg:px-20 lg:py-8">
                         <h1 class="text-center font-extrabold text-white text-[72px] leading-none">Exotic tastes at your doorstep</h1>
-                        <p class="mt-6 text-center text-white font-bold">We supply highly quality organic products</p>
+                        <p class="mt-6 text-center text-[#ffffffe5] font-bold">We supply highly quality organic products</p>
                         <div class="flex justify-center">
                             <button class="btn mt-6 bg-[#F85559] hover:text-[#F85559] border-0 rounded-md font-bold text-lg text-white px-6">Shop Now</button>
                         </div>
@@ -137,15 +137,15 @@
                     <p class=" font-medium text-xl text-[#121212] text-center mx-0 my-auto lg:mx-0 lg:my-0">Grape</p>
                 </aside>
                 <aside class="flex flex-row lg:flex-col gap-6 lg:gap-0">
-                    <img class="w-[110px]" src="images/fruit2.png" alt="">
+                    <img class="w-[140px] lg:w-[110px]" src="images/fruit2.png" alt="">
                     <p class="font-medium text-xl text-[#121212] text-center mx-0 my-auto lg:mx-0 lg:my-0">Orange</p>
                 </aside>
                 <aside class="flex flex-row lg:flex-col gap-6 lg:gap-0">
-                    <img class="w-[153px] -ml-4 lg:-ml-0" src="images/fruit3.png" alt="">
+                    <img class="w-[140px] lg:w-[153px] -ml-4 lg:-ml-0" src="images/fruit3.png" alt="">
                     <p class="font-medium text-xl text-[#121212] text-center mx-0 my-auto lg:mx-0 lg:my-0">Mango</p>
                 </aside>
                 <aside class="flex flex-row lg:flex-col gap-6 lg:gap-0">
-                    <img class="w-[145px]" src="images/fruit4.png" alt="">
+                    <img class="w-[140px] lg:w-[145px]" src="images/fruit4.png" alt="">
                     <p class="font-medium text-xl text-[#121212] text-center mx-0 my-auto lg:mx-0 lg:my-0">Strawberry</p>
                 </aside>
                 <aside class="flex flex-row lg:flex-col gap-6 lg:gap-0">
@@ -156,8 +156,234 @@
         </section>
     </header>
     <main class="mt-3 max-w-5xl my-0 mx-auto">
-        
+        <!-- Deal of the day -->
+        <section class="mt-44 px-4 lg:px-0">
+            <article class="flex flex-col-reverse lg:flex-row gap-10 lg:gap-40 items-center">
+                <aside>
+                    <h1 class="font-extrabold text-5xl text-[#121212]">Deal of the day</h1>
+                    <p class="font-medium text-[#121212] mt-4">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                </aside>
+                <aside>
+                    <div class="grid auto-cols-max grid-flow-col gap-5 text-center">
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:15;"></span>
+                            </span>
+                            days
+                        </div>
+                        <p class="pt-2 font-bold text-xl">:</p>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:10;"></span>
+                            </span>
+                            hours
+                        </div>
+                        <p class="pt-2 font-bold text-xl">:</p>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:24;"></span>
+                            </span>
+                            min
+                        </div>
+                        <p class="pt-2 font-bold text-xl">:</p>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:${counter};"></span>
+                            </span>
+                            sec
+                        </div>
+                    </div>
+                </aside>
+            </article>
+            <article class="mt-16 lg:mt-8 flex flex-col lg:flex-row gap-10 lg:gap-5">
+                <aside class="p-9 shadow-lg">
+                    <img class="my-0 mx-auto" src="images/fruit6.png" alt="">
+                    <h1 class="mt-8 text-center font-bold text-2xl text-[#121212]">12.90$ - 18.85$</h1>
+                    <p class="mt-6 text-center font-medium text-[#121212e8]">Apples</p>
+                    <div class="mt-2 flex gap-3 justify-center">
+                        <i class="bi bi-star-fill text-xl text-[#F85559]"></i>
+                        <i class="bi bi-star-fill text-xl text-[#F85559]"></i>
+                        <i class="bi bi-star-fill text-xl text-[#F85559]"></i>
+                        <i class="bi bi-star-half text-xl text-[#F85559]"></i>
+                        <i class="bi bi-star text-xl text-[#F85559]"></i>
+                    </div>
+                    <p class="mt-4 text-center text-[#F85559] font-bold text-lg hover:underline"><a href="#">Details</a></p>
+                </aside>
+                <aside class="p-9 shadow-lg">
+                    <img class="my-0 mx-auto" src="images/fruit7.png" alt="">
+                    <h1 class="mt-8 text-center font-bold text-2xl text-[#121212]">12.90$ - 18.85$</h1>
+                    <p class="mt-6 text-center font-medium text-[#121212e8]">Orange</p>
+                    <div class="mt-2 flex gap-3 justify-center">
+                        <i class="bi bi-star-fill text-xl text-[#F85559]"></i>
+                        <i class="bi bi-star-fill text-xl text-[#F85559]"></i>
+                        <i class="bi bi-star-fill text-xl text-[#F85559]"></i>
+                        <i class="bi bi-star-half text-xl text-[#F85559]"></i>
+                        <i class="bi bi-star text-xl text-[#F85559]"></i>
+                    </div>
+                    <p class="mt-4 text-center text-[#F85559] font-bold text-lg hover:underline"><a href="#">Details</a></p>
+                </aside>
+                <aside class="p-9 shadow-lg">
+                    <img class="my-0 mx-auto" src="images/fruit8.png" alt="">
+                    <h1 class="mt-8 text-center font-bold text-2xl text-[#121212]">12.90$ - 18.85$</h1>
+                    <p class="mt-6 text-center font-medium text-[#121212e8]">Red Dragon</p>
+                    <div class="mt-2 flex gap-3 justify-center">
+                        <i class="bi bi-star-fill text-xl text-[#F85559]"></i>
+                        <i class="bi bi-star-fill text-xl text-[#F85559]"></i>
+                        <i class="bi bi-star-fill text-xl text-[#F85559]"></i>
+                        <i class="bi bi-star-half text-xl text-[#F85559]"></i>
+                        <i class="bi bi-star text-xl text-[#F85559]"></i>
+                    </div>
+                    <p class="mt-4 text-center text-[#F85559] font-bold text-lg hover:underline"><a href="#">Details</a></p>
+                </aside>
+                <aside class="p-9 shadow-lg">
+                    <img class="my-0 mx-auto" src="images/fruit9.png" alt="">
+                    <h1 class="mt-8 text-center font-bold text-2xl text-[#121212]">12.90$ - 18.85$</h1>
+                    <p class="mt-6 text-center font-medium text-[#121212e8]">Banana</p>
+                    <div class="mt-2 flex gap-3 justify-center">
+                        <i class="bi bi-star-fill text-xl text-[#F85559]"></i>
+                        <i class="bi bi-star-fill text-xl text-[#F85559]"></i>
+                        <i class="bi bi-star-fill text-xl text-[#F85559]"></i>
+                        <i class="bi bi-star-half text-xl text-[#F85559]"></i>
+                        <i class="bi bi-star text-xl text-[#F85559]"></i>
+                    </div>
+                    <p class="mt-4 text-center text-[#F85559] font-bold text-lg hover:underline"><a href="#">Details</a></p>
+                </aside>
+            </article>
+            <article class="flex justify-center">
+                <button class="btn mt-10 lg:mt-8 bg-[#F85559] hover:text-[#F85559] border-0 rounded-md font-bold text-lg text-white px-6">Shop All</button>
+            </article>
+        </section>
+        <!-- Team Section -->
+        <section class="mt-36 relative">
+            <article class="absolute px-4 lg:px-40 py-4 lg:py-12">
+                <section>
+                    <h1 class="text-center font-extrabold text-white text-5xl">Meet the team section</h1>
+                    <p class="mt-4 text-center font-medium text-[#fffffff5]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                </section>
+                <section class="mt-8 flex flex-col lg:flex-row gap-10 lg:gap-5">
+                    <aside class="">
+                        <img class="w-32 my-0 mx-auto" src="images/member1.png" alt="">
+                        <h1 class="mt-6 text-center text-white font-bold text-2xl">Awlad Hossain</h1>
+                        <h2 class="mt-1 text-center text-[#fffffff5] font-medium">Fruits Expert</h2>
+                        <div class="mt-2 flex justify-center gap-3">
+                            <i class="bi bi-facebook text-lg text-[#F85559]"></i>
+                            <i class="bi bi-twitter text-lg text-[#F85559]"></i>
+                            <i class="bi bi-linkedin text-lg text-[#F85559]"></i>
+                        </div>
+                    </aside>
+                    <aside class="">
+                        <img class="w-32 my-0 mx-auto" src="images/member2.png" alt="">
+                        <h1 class="mt-6 text-center text-white font-bold text-2xl">Safia Chowdhury</h1>
+                        <h2 class="mt-1 text-center text-[#fffffff5] font-medium">Fruits Expert</h2>
+                        <div class="mt-2 flex justify-center gap-3">
+                            <i class="bi bi-facebook text-lg text-[#F85559]"></i>
+                            <i class="bi bi-twitter text-lg text-[#F85559]"></i>
+                            <i class="bi bi-linkedin text-lg text-[#F85559]"></i>
+                        </div>
+                    </aside>
+                    <aside class="">
+                        <img class="w-32 my-0 mx-auto" src="images/member3.png" alt="">
+                        <h1 class="mt-6 text-center text-white font-bold text-2xl">Rokib Hossain</h1>
+                        <h2 class="mt-1 text-center text-[#fffffff5] font-medium">Fruits Expert</h2>
+                        <div class="mt-2 flex justify-center gap-3">
+                            <i class="bi bi-facebook text-lg text-[#F85559]"></i>
+                            <i class="bi bi-twitter text-lg text-[#F85559]"></i>
+                            <i class="bi bi-linkedin text-lg text-[#F85559]"></i>
+                        </div>
+                    </aside>
+                    <aside class="">
+                        <img class="w-32 my-0 mx-auto" src="images/member4.png" alt="">
+                        <h1 class="mt-6 text-center text-white font-bold text-2xl">Chaity Hasan</h1>
+                        <h2 class="mt-1 text-center text-[#fffffff5] font-medium">Fruits Expert</h2>
+                        <div class="mt-2 flex justify-center gap-3">
+                            <i class="bi bi-facebook text-lg text-[#F85559]"></i>
+                            <i class="bi bi-twitter text-lg text-[#F85559]"></i>
+                            <i class="bi bi-linkedin text-lg text-[#F85559]"></i>
+                        </div>
+                    </aside>
+                </section>
+            </article>
+            <img class="rounded-lg h-[1400px] lg:h-auto" src="images/team.png" alt="">
+        </section>
+        <!-- Why Choose Us -->
+        <section class="mt-36 px-4 lg:px-0">
+            <article>
+                <h1 class="text-center font-extrabold text-[#121212] text-5xl">Why Choose Us</h1>
+                <p class="mt-4 my-0 mx-auto w-[600px] text-center font-medium text-[#121212a1]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            </article>
+            <article class="mt-12 flex">
+                <aside class="pr-16 pb-1">
+                    <section class="flex gap-3">
+                        <aside class="bg-[#12121242] h-full pt-1 p-3 rounded-full">
+                            <i class="bi bi-people-fill text-xl text-[#121212]"></i>
+                        </aside>
+                        <aside>
+                            <h2 class="font-extrabold text-[#121212] text-xl">Dedicated Team</h2>
+                            <div class="py-[1px] mt-1 rounded-lg w-20 bg-[#121212a1]"></div>
+                            <p class="mt-1 w-[250px] font-medium text-[14px] text-[#121212a1]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </aside>
+                    </section>
+                    <section class="flex gap-3 mt-3">
+                        <aside class="bg-[#12121242] h-full pt-1 p-3 rounded-full">
+                            <i class="bi bi-peace-fill text-xl text-[#121212]"></i>
+                        </aside>
+                        <aside>
+                            <h2 class="font-extrabold text-[#121212] text-xl">Fresh is Best</h2>
+                            <div class="py-[1px] mt-1 rounded-lg w-20 bg-[#121212a1]"></div>
+                            <p class="mt-1 w-[250px] font-medium text-[14px] text-[#121212a1]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </aside>
+                    </section>
+                    <section class="flex gap-3 mt-3">
+                        <aside class="bg-[#12121242] h-full pt-1 p-3 rounded-full">
+                            <i class="bi bi-box-seam text-xl text-[#121212]"></i>
+                        </aside>
+                        <aside>
+                            <h2 class="font-extrabold text-[#121212] text-xl">Gift Certificates</h2>
+                            <div class="py-[1px] mt-1 rounded-lg w-20 bg-[#121212a1]"></div>
+                            <p class="mt-1 w-[250px] font-medium text-[14px] text-[#121212a1]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </aside>
+                    </section>
+                </aside>
+                <aside>
+                    <img class="h-full" src="images/whychoose1.png" alt="">
+                </aside>
+                <aside class="pb-1">
+                    <section class="flex gap-3">
+                        <aside>
+                            <h2 class="text-end font-extrabold text-[#121212] text-xl">Integrated Supplier</h2>
+                            <div class="py-[1px] ml-[233px] mt-1 rounded-lg w-20 bg-[#121212a1]"></div>
+                            <p class="text-end  ml-16 w-[250px] mt-1 text-[14px] font-medium text-[#121212a1]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </aside>
+                        <aside class="bg-[#12121242] h-full pt-1 p-3 rounded-full">
+                            <i class="bi bi-minecart-loaded text-xl text-[#121212]"></i>
+                        </aside>
+                    </section>
+                    <section class="flex gap-3 mt-3">
+                        <aside>
+                            <h2 class="text-end font-extrabold text-[#121212] text-xl">Sustainable Practice</h2>
+                            <div class="py-[1px] ml-[233px] mt-1 rounded-lg w-20 bg-[#121212a1]"></div>
+                            <p class="text-end  ml-16 w-[250px] mt-1 text-[14px] font-medium text-[#121212a1]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </aside>
+                        <aside class="bg-[#12121242] h-full pt-1 p-3 rounded-full">
+                            <i class="bi bi-grid text-xl text-[#121212]"></i>
+                        </aside>
+                    </section>
+                    <section class="flex gap-3 mt-3">
+                        <aside>
+                            <h2 class="text-end font-extrabold text-[#121212] text-xl">The Benefits Only</h2>
+                            <div class="py-[1px] ml-[233px] mt-1 rounded-lg w-20 bg-[#121212a1]"></div>
+                            <p class="text-end  ml-16 w-[250px] mt-1 text-[14px] font-medium text-[#121212a1]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </aside>
+                        <aside class="bg-[#12121242] h-full pt-1 p-3 rounded-full">
+                            <i class="bi bi-hand-thumbs-up text-xl text-[#121212]"></i>
+                        </aside>
+                    </section>
+                </aside>
+            </article>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        
+    </footer>
 </body>
 </html>
